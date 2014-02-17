@@ -1,0 +1,85 @@
+	header {
+		height: 25%;
+	}
+
+	#bodyHeader {
+		padding-top: -20px;
+		padding-bottom: 20px;
+		height: 100%;
+
+	#logo { 
+		width: 25%;
+		margin: 20px 0px 20px 0px;
+		> img {
+			width: 86%;
+			padding: 0% 7%;
+		}
+	}
+
+	#wrapper {
+		min-height: 390px;
+	}
+
+	#fast {
+		color: $green-color;
+	}
+
+	#accurate {
+		color: $orange-color;
+	}
+
+	#ampersand {
+		color: $purple-color;
+	}
+
+	#reliable {
+		color: $blue-color;
+	}
+
+	}
+
+	#doneRight,
+	#learnMore {
+		display: -webkit-flex;
+		-webkit-flex-direction: column;
+		-webkit-align-self: center;
+		text-align: center;
+	}
+
+	#doneRight {
+		-webkit-justify-content: center;
+		height: 300px;
+	}
+
+	#doneRight1  {
+		> h1 {
+			font-size: 3em;
+			word-spacing: 5px;
+		}
+	}
+
+	#doneRight2 {
+		> h2 {
+			word-spacing: 30px;
+		}
+	}
+
+	#learnMore {
+		padding: 6px 0px;
+		background:  #1a1d25;
+		height: 20px;
+		width: 200px;
+		margin: auto;
+		margin-top: -20px;
+		border: 5px solid #222733;
+		border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+		>p {
+			-webkit-align-self: center;
+			margin: auto;
+		}
+		
+	}
+
+	#bodyFooter {
+		height: 150px;
+	}

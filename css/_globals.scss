@@ -1,0 +1,120 @@
+body {
+	color: #ffffff;
+	margin: auto;
+	background: $bg-color ;
+	background-size: 100%;
+}
+
+header {
+	border-bottom: 1px solid #222733;
+	width: 100%;
+}
+
+#bodyHeader,
+#nav,
+#nav ul,
+.search {
+	display: -webkit-flex;
+	-webkit-align-self: center;
+}
+
+#bodyTop,
+.search {
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+}
+
+#bodyHeader {
+	max-width: 1200px;
+}
+
+#nav {
+	margin: auto;
+	> ul {
+		list-style-type: none;
+		height: 100%;
+		margin: 0;
+		-webkit-padding-start: 0px;
+		 > li {
+		 	display: block;
+		 	margin: 25px;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: sans-serif;
+			padding: 5px 0px;
+		}
+		> li:nth-child(1) {
+			border-bottom: 5px solid $green-color;
+			
+		}	
+		> li:nth-child(2) {
+			border-bottom: 5px solid $yellow-color;
+			
+		}
+		> li:nth-child(3) {
+			border-bottom: 5px solid $orange-color;
+			
+		}
+		> li:nth-child(4) {
+			border-bottom: 5px solid $red-color;
+			
+		}
+		> li:nth-child(5) {
+			border-bottom: 5px solid $purple-color;
+			
+		}
+	}	
+}
+
+
+.search {
+	width: 12.6666666666%;
+	margin-right: 20px;
+	> input {
+		background: #1a1d25;
+		color: #fff;
+		width: 100%;
+		border-radius:  10% 10% 10% 10% / 50% 50% 50% 50%;
+		text-align: center;
+		border: 5px solid $blue-color;
+
+	}
+
+}
+
+
+
+footer {
+	border-top: 1px solid #222733;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+
+
+// Formatting for Color Bars
+
+.colorBar {
+	display: -webkit-flex; 
+	height: 5px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, $blue-color), color-stop(16.6666666666%, $blue-color), color-stop(16.666666666%, $purple-color), color-stop(33.333333333%, $purple-color), color-stop(33.3333333333%, $red-color), color-stop(50%, $red-color), color-stop(50%, $orange-color), color-stop(66.6666666666%, rbg(255,159,64)), color-stop(66.6666666666%, $yellow-color), color-stop(83.3333333333%, $yellow-color), color-stop(83.3333333333%, rgb(172,245,61)), color-stop(100%, rgb(172,245,61)));
+	background: -webkit-linear-gradient(left, $blue-color 0%,$blue-color 16.666666666%, $purple-color 16.666666666%, $purple-color 33.3333333333%, $red-color 33.3333333333%, $red-color 50%, $orange-color 50%, $orange-color 66.6666666666%, $yellow-color 66.6666666666%, $yellow-color 83.3333333333%, rgb(172,245,61) 83.3333333333%, $green-color 100%);
+	background: -moz-linear-gradient(left, $blue-color 0%,$blue-color 16.666666666%, $purple-color 16.666666666%, $purple-color 33.3333333333%, $red-color 33.3333333333%, $red-color 50%, $orange-color 50%, $orange-color 66.6666666666%, $yellow-color 66.6666666666%, $yellow-color 83.3333333333%, rgb(172,245,61) 83.3333333333%, $green-color 100%);
+	background: -o-linear-gradient(left, $blue-color 0%,$blue-color 16.666666666%, $purple-color 16.666666666%, $purple-color 33.3333333333%, $red-color 33.3333333333%, $red-color 50%, $orange-color 50%, $orange-color 66.6666666666%, $yellow-color 66.6666666666%, $yellow-color 83.3333333333%, rgb(172,245,61) 83.3333333333%, $green-color 100%);
+	background: linear-gradient(left, $blue-color 0%,$blue-color 16.666666666%, $purple-color 16.666666666%, $purple-color 33.3333333333%, $red-color 33.3333333333%, $red-color 50%, $orange-color 50%, $orange-color 66.6666666666%, $yellow-color 66.6666666666%, $yellow-color 83.3333333333%, rgb(172,245,61) 83.3333333333%, $green-color 100%);
+}
+
+
+.bottomColorBar {
+	opacity: 0.7;
+}
+
+.largerBottomColorBar {
+	height: 50px;
+	opacity: 0.1;
+}
+
