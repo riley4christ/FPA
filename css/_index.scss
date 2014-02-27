@@ -7,16 +7,23 @@
 		padding-bottom: 20px;
 		height: 100%;
 
+	}
+
 	#logo { 
 		width: 25%;
 		margin: 20px 0px 20px 0px;
-		> img {
+		> a img {
 			width: 86%;
 			padding: 0% 7%;
 		}
 	}
 
-	#wrapper {
+	#nav ul li a {
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	#content {
 		min-height: 390px;
 	}
 
@@ -36,7 +43,7 @@
 		color: $blue-color;
 	}
 
-	}
+
 
 	#doneRight,
 	#learnMore {
@@ -45,6 +52,7 @@
 		-webkit-align-self: center;
 		text-align: center;
 	}
+
 
 	#doneRight {
 		-webkit-justify-content: center;

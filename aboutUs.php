@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "Simple and Easy Meal Counts";
+$pageTitle = "Get to Know Us Better";
 include("inc/header.php"); ?>
 
 

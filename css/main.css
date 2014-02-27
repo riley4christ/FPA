@@ -112,6 +112,8 @@ footer {
   border-top: 1px solid #222733;
   margin-bottom: 0px;
   width: 100%; }
+  footer > #bodyFooter #learnMore a {
+    color: #FFf; }
 
 .colorBar {
   display: -webkit-flex;
@@ -140,22 +142,32 @@ header {
   padding-top: -20px;
   padding-bottom: 20px;
   height: 100%; }
-  #bodyHeader #logo {
-    width: 25%;
-    margin: 20px 0px 20px 0px; }
-    #bodyHeader #logo > img {
-      width: 86%;
-      padding: 0% 7%; }
-  #bodyHeader #wrapper {
-    min-height: 390px; }
-  #bodyHeader #fast {
-    color: #acf540; }
-  #bodyHeader #accurate {
-    color: #ff9f40; }
-  #bodyHeader #ampersand {
-    color: #b53ad4; }
-  #bodyHeader #reliable {
-    color: #34c6cd; }
+
+#logo {
+  width: 25%;
+  margin: 20px 0px 20px 0px; }
+  #logo > a img {
+    width: 86%;
+    padding: 0% 7%; }
+
+#nav ul li a {
+  color: #FFF;
+  text-decoration: none; }
+
+#content {
+  min-height: 390px; }
+
+#fast {
+  color: #acf540; }
+
+#accurate {
+  color: #ff9f40; }
+
+#ampersand {
+  color: #b53ad4; }
+
+#reliable {
+  color: #34c6cd; }
 
 #doneRight,
 #learnMore {
